@@ -1,0 +1,6 @@
+.DS_Store
+*.wav
+*.aiff
+*.m4a
+*.mp3
+.vscode
