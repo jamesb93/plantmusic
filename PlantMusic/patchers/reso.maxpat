@@ -101,11 +101,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-56",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 360.0, 105.0, 30.0, 30.0 ]
 				}
 
@@ -126,7 +126,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -189,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 219.0, 285.0, 80.0, 22.0 ],
+					"patching_rect" : [ 219.0, 285.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -218,7 +218,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 360.0, 379.0, 80.0, 22.0 ],
+					"patching_rect" : [ 360.0, 379.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
 					"patching_rect" : [ 360.0, 285.0, 161.0, 22.0 ],
-					"text" : "sigmund~ @npeak 10 peaks"
+					"text" : "sigmund~ @npeak 30 peaks"
 				}
 
 			}
@@ -301,7 +301,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 289.5, 309.0, 289.0, 309.0, 289.0, 366.0, 228.5, 366.0 ],
+					"midpoints" : [ 302.5, 309.0, 289.0, 309.0, 289.0, 366.0, 228.5, 366.0 ],
 					"source" : [ "obj-27", 3 ]
 				}
 
@@ -420,17 +420,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "resonators~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sigmund~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
